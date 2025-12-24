@@ -23,7 +23,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
-packages = ["toxic_detector"]
+packages = ["toxicity_detector"]
 
 [tool.setuptools.package-data]
-"toxic_detector" = ["resources/vocab.json", "resources/toxicity-model.pt"]
+"toxicity_detector" = ["resources/vocab.json", "resources/toxicity-model.pt"]
