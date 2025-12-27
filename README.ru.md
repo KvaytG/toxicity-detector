@@ -42,7 +42,7 @@ for idx, text in enumerate(texts, start=1):
 ## 📥 Установка
 
 ```bash
-pip install git+https://github.com/KvaytG/toxicity-detector.git
+pip install git+https://github.com/KvaytG/ru-toxicity-detector.git
 ```
 
 ## 📝 Лицензия
