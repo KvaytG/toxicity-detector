@@ -1,6 +1,6 @@
 [project]
-name = "toxicity-detector"
-version = "1.0.0"
+name = "ru-toxicity-detector"
+version = "1.0.1"
 description = "A simple toxicity detector."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -29,4 +29,7 @@ where = ["src"]
 include = ["toxicity_detector*"]
 
 [tool.setuptools.package-data]
-"toxicity_detector" = ["resources/vocab.json", "resources/toxicity-model.pt"]
+"toxicity_detector" = [
+    "resources/vocab.json",
+    "resources/toxicity-model.pt"
+]
